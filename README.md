@@ -1,5 +1,5 @@
 # fmSort
-Dynamic Sorting for FileMaker. iscover the sort order dynamically. Set the sort order dynamically.
+Dynamic Sorting for FileMaker. Discover the sort order dynamically. Set the sort order dynamically.
 
 A proof of concept demo file to convince Claris to implement this functionality natively, and a FileMaker module, which has turned out to possibly be quite useful :D.
 
