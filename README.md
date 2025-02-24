@@ -8,8 +8,13 @@ FileMaker sorting is a powerful feature at the heart of FileMaker databases, the
 
 Filemaker Sorting is powerful :), but static :(.
 
-- Sorts need to be known and statically programmed.
-- For n short fields that requires n^2 sorts. 
+- It is not possible for a user to build up a sort order bit by bit
+- Sorts need to be known and statically programmed in advance.
+- It could be possible to write a data driven sort script, 
+    but for n sort fields it would require n^2 statically programmed sort record steps.
+- The sort dialog can do everything - but is rather overwhelming for most users
+
+In short, sorting is not really low code in FileMaker
 
 ## The Solution
 
@@ -18,7 +23,6 @@ fmSort changes that.
 - Discover the sort order dynamically.
   - Add sort indicators
 - Set the sort order dynamically.
-
 
 This is
 
